@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La Unidad 3: Bioética y sostenibilidad en el desarrollo económico global, establece los principios esenciales para comprender cómo los valores éticos y bioéticos pueden orientar el desarrollo económico hacia la sostenibilidad. Esta unidad proporciona una perspectiva integral sobre la relación entre la economía, el medio ambiente y los derechos humanos, destacando la importancia de prácticas responsables en contextos globalizados. Este enfoque asegura que los estudiantes adquieran una comprensión sólida de los desafíos éticos actuales y las estrategias sostenibles, permitiéndoles aplicar estas herramientas de manera efectiva en su formación profesional y en la vida cotidiana.
+      p(data-aos="fade-up").mb-5 La unidad 2: Valores límites permisibles, aborda los principales tipos de agentes químicos presentes en los entornos laborales, sus características y los efectos que pueden generar sobre la salud. Esta unidad ofrece una visión detallada de las diferentes formas en que estos contaminantes ingresan al organismo, así como de los mecanismos de absorción y los factores que influyen en su toxicidad. Este enfoque integral permite a los estudiantes comprender los riesgos asociados a la exposición química en el trabajo y aplicar medidas preventivas efectivas para proteger la salud ocupacional.
 
       .row.justify-content-center
         .col-lg-12.mb-5

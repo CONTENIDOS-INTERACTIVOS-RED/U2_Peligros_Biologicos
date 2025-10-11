@@ -22,12 +22,8 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los comienzos de la humanidad, la relación entre los principios éticos, el desarrollo económico y la sostenibilidad ha sido fundamental para garantizar un progreso equilibrado y equitativo. En un contexto globalizado, donde los desafíos éticos y ambientales son cada vez más evidentes, la bioética emerge como una herramienta clave para orientar decisiones económicas responsables que respeten tanto el medio ambiente como los derechos humanos.
-
-              p.descripcion.mb-4 En esta unidad, profundizaremos en el rol de la bioética como pilar de la sostenibilidad en el desarrollo económico, explorando temas esenciales como la aplicación de principios éticos al uso de recursos naturales, la influencia de las políticas globales en la protección de los derechos humanos y la ética en la innovación tecnológica. 
+              p.descripcion.mb-4 La unidad aborda los mecanismos de transmisión del riesgo biológico en entornos laborales, incluyendo las vías respiratoria, dérmica, parenteral, gástrica y enteral. Explica cómo los agentes patógenos se propagan y detalla la cadena epidemiológica, compuesta por agente etiológico, reservorio, puerta de salida, vía de transmisión, puerta de entrada y huésped susceptible. Destaca la importancia de la prevención, el uso de equipos de protección personal, la higiene y la vigilancia epidemiológica para reducir el contagio y proteger la salud pública y ocupacional.
               
-              p #[b Prepárate para explorar los retos y oportunidades que la sostenibilidad y la bioética presentan en un mundo en constante evolución.]
-
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   .iniciar-btn-container.w-100.w-md-auto
@@ -150,7 +146,7 @@ export default {
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
     background-color: $color-acento-botones !important
-    color: #0B0A0A !important
+    color: #fff !important
   .icon
     transition: all 0.25s ease-in-out
     // background-color: #083E61 !important

@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '2',
+    tituloUnidad: 'Mecanismo de transmisión de riesgo biológico.',
   },
   menuPrincipal: {
     menu: [
@@ -15,20 +15,38 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo: 'Mecanismo de transmisión de riesgo biológico',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Vía respiratoria',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Vía dérmica',
             hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Vía parenteral',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Vía gástrica',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Vía enteral',
+            hash: 't_1_5',
           },
         ],
       },
@@ -36,49 +54,8 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Cadena epidemiológica de la enfermedad',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Título tema',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -118,26 +95,115 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
-      link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'Centers for Disease Control and Prevention (CDC). (2022). Infection control in healthcare settings.',
+      link: 'https://www.cdc.gov/infectioncontrol',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'World Health Organization (WHO). (2020). Modes of transmission of virus causing COVID-19: Implications for IPC precaution recommendations.',
+      link: 'https://www.who.int/news-room/commentaries',
     },
   ],
   glosario: [
     {
-      termino: 'Bioética',
+      termino: 'Aerosoles',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'Partículas microscópicas suspendidas en el aire que pueden contener agentes infecciosos.',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Agente biológico',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'Microorganismo, virus, hongo, parásito o toxina capaz de causar daño a la salud humana.',
+    },
+    {
+      termino: 'Agente etiológico',
+      significado:
+        'Organismo o entidad biológica que produce una enfermedad infecciosa en un huésped susceptible.',
+    },
+    {
+      termino: 'Barrera cutánea',
+      significado:
+        'Función protectora natural de la piel que impide la entrada de microorganismos.',
+    },
+    {
+      termino: 'Bioseguridad',
+      significado:
+        'Conjunto de medidas preventivas que se aplican para controlar riesgos biológicos y proteger la salud humana y el ambiente.',
+    },
+    {
+      termino: 'Cadena epidemiológica',
+      significado:
+        'Modelo que explica cómo se transmite una enfermedad infecciosa desde el reservorio hasta el huésped susceptible.',
+    },
+    {
+      termino: 'Contacto directo',
+      significado:
+        'Forma de transmisión donde el agente se transfiere por contacto físico directo con la fuente infectada.',
+    },
+    {
+      termino: 'Contacto indirecto',
+      significado:
+        'Transmisión mediante objetos contaminados (fómites) como guantes, ropa o utensilios.',
+    },
+    {
+      termino: 'Enteral',
+      significado:
+        'Vía de ingreso de agentes por el tracto gastrointestinal, mediante contacto con superficies u objetos contaminados.',
+    },
+    {
+      termino: 'EPP (Equipo de Protección Personal)',
+      significado:
+        'Dispositivos o prendas utilizados para proteger al trabajador de la exposición a riesgos biológicos, físicos o químicos.',
+    },
+    {
+      termino: 'Fómite',
+      significado:
+        'Objeto inanimado capaz de transmitir agentes patógenos al entrar en contacto con personas.',
+    },
+    {
+      termino: 'Huésped susceptible',
+      significado:
+        'Persona con predisposición a enfermarse por carecer de defensas inmunológicas suficientes frente al agente infeccioso.',
+    },
+    {
+      termino: 'Inhalación',
+      significado:
+        'Proceso de introducir aire a los pulmones, principal medio por el cual ingresan agentes por vía respiratoria.',
+    },
+    {
+      termino: 'Parenteral',
+      significado:
+        'Vía de ingreso directo al organismo a través de heridas, cortes o agujas, evitando el tracto digestivo.',
+    },
+    {
+      termino: 'Patogenicidad',
+      significado:
+        'Capacidad de un agente para causar enfermedad en un huésped.',
+    },
+    {
+      termino: 'Puerta de entrada',
+      significado:
+        'Sitio por donde el agente infeccioso penetra en el organismo del huésped.',
+    },
+    {
+      termino: 'Puerta de salida',
+      significado:
+        'Sitio por donde el agente abandona el reservorio para transmitirse a otro huésped.',
+    },
+    {
+      termino: 'Reservorio',
+      significado:
+        'Lugar donde el agente infeccioso vive y se reproduce, pudiendo ser un humano, animal o medio ambiente.',
+    },
+    {
+      termino: 'Respiratoria',
+      significado:
+        'Vía de transmisión en la que los agentes se diseminan por medio del aire y entran por las vías respiratorias.',
+    },
+    {
+      termino: 'Transmisión',
+      significado:
+        'Proceso mediante el cual un agente infeccioso se propaga desde su reservorio hasta un huésped susceptible.',
     },
   ],
 }
