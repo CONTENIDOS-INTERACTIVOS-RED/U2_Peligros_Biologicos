@@ -52,12 +52,13 @@
                 p #[b Ejemplos:] tuberculosis (tracto respiratorio), hepatitis B (sangre, fluidos). Permite identificar medidas como el uso de barreras y desinfección para limitar la diseminación (CDC, 2022).
     
               .bg-color-white.box-shadow.p-3(x="67.5%" y="15%" numero="+")
-                h5 Vía de transmisión
+                h5 Huésped susceptible
 
-                p Es el mecanismo por el que el agente llega al huésped. Puede ser directa (contacto físico, gotas respiratorias) o indirecta (agua, alimentos, instrumentos contaminados, vectores biológicos como mosquitos).
+                p Persona que, por su estado inmunológico, edad, enfermedades crónicas o falta de vacunación, es vulnerable a la infección. 
 
-                p #[b Ejemplos:] contacto directo (herpes simple), aerosoles (COVID-19), fómites (superficies), vectores (dengue), transfusiones (VIH). Medidas preventivas: lavado de manos, mascarillas, control de vectores, desinfección.
-    
+                p #[b Ejemplos:] niños, ancianos, inmunodeprimidos. Factores determinantes: inmunológicos, genéticos, ambientales. Estrategias de protección: vacunación, buena nutrición, control de comorbilidades, estilos de vida saludables (Rothman et al., 2017).
+
+
               .bg-color-white.box-shadow.p-3(x="74.5%" y="48%" numero="+")
                 h5 Puerta de entrada
 
@@ -66,13 +67,12 @@
                 p #[b Ejemplos:]  gripe (mucosas nasales), Helicobacter pylori (digestiva), VIH (mucosas genitales, sangre). La protección incluye higiene, barreras, vacunación y cuidado de heridas.
 
               .bg-color-white.box-shadow.p-3(x="71%" y="80%" numero="+")  
-                h5 Huésped susceptible
+                h5 Vía de transmisión
 
-                p Persona que, por su estado inmunológico, edad, enfermedades crónicas o falta de vacunación, es vulnerable a la infección. 
+                p Es el mecanismo por el que el agente llega al huésped. Puede ser directa (contacto físico, gotas respiratorias) o indirecta (agua, alimentos, instrumentos contaminados, vectores biológicos como mosquitos).
 
-                p #[b Ejemplos:] niños, ancianos, inmunodeprimidos. Factores determinantes: inmunológicos, genéticos, ambientales. Estrategias de protección: vacunación, buena nutrición, control de comorbilidades, estilos de vida saludables (Rothman et al., 2017).
-                
-    
+                p #[b Ejemplos:] contacto directo (herpes simple), aerosoles (COVID-19), fómites (superficies), vectores (dengue), transfusiones (VIH). Medidas preventivas: lavado de manos, mascarillas, control de vectores, desinfección.
+
     .bg-full-width.bg-color-2.mb-5
       .px-4.px-md-5.py-4
         p(data-aos="fade-left") La cadena epidemiológica proporciona un marco esencial para entender y actuar frente a enfermedades infecciosas. Su análisis integral permite identificar con precisión los puntos críticos donde deben aplicarse intervenciones de salud pública para cortar el ciclo de transmisión y proteger a la población.
